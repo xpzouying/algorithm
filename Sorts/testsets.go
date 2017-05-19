@@ -16,8 +16,8 @@ var (
 
 // Mock some test dataset
 func MockTestset() (testdata []TestData) {
-	// testdata = append(testdata, emptydata, onedata, twodata, tworevdata, orderdata, randdata)
-	testdata = append(testdata, twodata)
+	testdata = append(testdata, emptydata, onedata, twodata, tworevdata, orderdata, randdata)
+	// testdata = append(testdata, twodata)
 
 	return testdata
 }
