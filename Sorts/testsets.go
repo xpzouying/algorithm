@@ -14,8 +14,10 @@ var (
 	randdata   = TestData{[]int{3, 1, 2, 5, 4, 8, 6}, []int{1, 2, 3, 4, 5, 6, 8}}
 )
 
+// Mock some test dataset
 func MockTestset() (testdata []TestData) {
-	testdata = append(testdata, emptydata, onedata, twodata, tworevdata, orderdata, randdata)
+	// testdata = append(testdata, emptydata, onedata, twodata, tworevdata, orderdata, randdata)
+	testdata = append(testdata, twodata)
 
 	return testdata
 }
