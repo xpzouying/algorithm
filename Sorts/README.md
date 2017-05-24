@@ -1,5 +1,7 @@
 # Sort Algorithm #
 
+- [x] 查找第K小的数值
+
 
 ## Sort List / 排序列表 ##
 - Bubble Sort / 冒泡排序
