@@ -9,4 +9,4 @@
 
 ## Search ##
 
-- Search middle number
+- [x] Search middle number
